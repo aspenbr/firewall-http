@@ -1,0 +1,13 @@
+---
+
+  - name: liberacao do firewall 
+    firewalld: 
+        service: "{{ item }}"
+        permanent: yes 
+        immediate: yes 
+        state: enabled
+    with_items: 
+        - http 
+        - https 
+
+# tasks file for roles/firewall-http
