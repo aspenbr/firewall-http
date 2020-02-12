@@ -2,7 +2,7 @@
 Role Name
 =========
 
-Name: teste-http
+Name: firewall-http
 
 That is a role created to work in my labs..... Do not use in your enviroment !!! ;-)
 
